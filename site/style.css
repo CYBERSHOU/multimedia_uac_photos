@@ -120,6 +120,10 @@ body {
     border: 2px solid #00A ;
 }
 
+.gallery #new_img {
+    padding-bottom: 10px;
+}
+
 .info {
     margin-left: 25%;
     margin-right: 25%;
