@@ -17,9 +17,6 @@ body {
     position: fixed;
     white-space: nowrap;
     vertical-align: middle;
-    /* overflow-wrap: normal; */
-    /* overflow-x: hidden; */
-    /* overflow-y: auto; */
     top: 0px;
     left: 0px;
     display: block;
@@ -29,7 +26,6 @@ body {
     height: 10%;
     width: 100%;
     border-bottom: 1px solid #000000;
-    /* margin-bottom: -15px; */
 }
 
 .homebar {
@@ -72,23 +68,25 @@ body {
 
 .logo_img img {
     width: 70px;
-    border: 2px solid transparent;
-}
-
-.logo_img img:hover {
-    width: 70px;
-    border: 2px solid #000000 ;
 }
 
 .intro {
     display: block;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: start;
+}
+
+.intro p {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .intro #title {
     text-align: center;
+    background: #AAA;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .intro::before {
@@ -100,8 +98,15 @@ body {
 .gallery {
     display: block;
     align-self: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.gallery #title {
+    text-align: center;
+    background: #AAA;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .gallery::before {
@@ -110,22 +115,45 @@ body {
     height: 100px;
 }
 
+.gallery p {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
 .gallery img {
     max-width: 60%;
     border: 2px solid transparent;
     padding: 15px;
+    margin-top: 50px;
 }
 
 .gallery img:hover {
     max-width: 60%;
     border: 2px solid #00A ;
     padding: 15px;
+    margin-top: 50px;
+}
+
+.gallery #first_img {
+    margin-top: 30px;
 }
 
 .info {
-    margin-left: 25%;
-    margin-right: 25%;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
+}
+
+.info #title {
+    background: #AAA;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.info p {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .info::before {
@@ -137,7 +165,7 @@ body {
 .info::after {
     content: "";
     display: block;
-    height: 100px;
+    height: 200px;
 }
 
 .footer {
