@@ -137,37 +137,6 @@ body {
     margin-top: 30px;
 }
 
-.info {
-    display: block;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: justify;
-}
-
-.info #title {
-    text-align: center;
-    background: #AAA;
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
-.info p {
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-}
-
-.info::before {
-    content: "";
-    display: block;
-    height: 100px;
-}
-
-.info::after {
-    content: "";
-    display: block;
-    height: 200px;
-}
-
 .reflexion {
     display: block;
     margin-left: 20%;
@@ -202,6 +171,37 @@ body {
     background: #F6F6F6;
 }
 
+.info {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+.info #title {
+    text-align: center;
+    background: #AAA;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.info p {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+.info::before {
+    content: "";
+    display: block;
+    height: 100px;
+}
+
+.info::after {
+    content: "";
+    display: block;
+    height: 200px;
+}
+
 .footer p {
     padding: 0px;
     padding-top: 0px;
@@ -211,7 +211,5 @@ body {
     border-top: 1px solid #000000;
     background: #F6F6F6;
 }
-
-
 
 /* eof */
