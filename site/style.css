@@ -23,9 +23,8 @@ body {
     text-align: center;
     align-content: center;
     background: #AAA;
-    height: 10%;
+    height: 90px;
     width: 100%;
-    border-bottom: 1px solid #000000;
 }
 
 .homebar {
@@ -74,7 +73,7 @@ body {
     display: block;
     margin-left: 20%;
     margin-right: 20%;
-    text-align: start;
+    text-align: justify;
 }
 
 .intro p {
@@ -97,13 +96,12 @@ body {
 
 .gallery {
     display: block;
-    align-self: center;
+    align-items: center;
     margin-left: 20%;
     margin-right: 20%;
 }
 
 .gallery #title {
-    text-align: center;
     background: #AAA;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -118,6 +116,7 @@ body {
 .gallery p {
     margin-left: 7.5%;
     margin-right: 7.5%;
+    text-align: justify;
 }
 
 .gallery img {
@@ -142,10 +141,11 @@ body {
     display: block;
     margin-left: 20%;
     margin-right: 20%;
-    text-align: center;
+    text-align: justify;
 }
 
 .info #title {
+    text-align: center;
     background: #AAA;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -168,10 +168,29 @@ body {
     height: 200px;
 }
 
+.reflexion {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+
+.reflexion #title {
+    text-align: center;
+    background: #AAA;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.reflexion p {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
 .footer {
     display: block;
     width: 100%;
-    height: 5%;
+    height: 35px;
     bottom: 0px;
     margin: 0px;
     zoom: unset;
